@@ -1,0 +1,7 @@
+3
+0%
+1: Goal1
+2: Goal2
+3: Goal3
+Daily goals ended
+Tue Jan 07 20:46:05 CET 2020END

@@ -1,0 +1,28 @@
+Projekt to aplikacja treningowa. Pozwala ona na dodawanie nowych treningów o dowolnej długości z różnymi celami na każdy dzień,
+ich aktualizację, usuwanie i pokazywanie.
+
+W aktualnej wersji projektu nie zdążyłem zawrzeć aktualizacji treningów. Oprócz tego jest ona bardzo wrażliwa na różne błędy związane z danymi
+wpisanymi przez użytkownika.
+
+Krótki opis pakietów i klas:
+-app - zawiera najważniejsze klasy powiązane z aplikacją. MainApp wywołuje odpowiednie metody z Facade. Facade koordynuje otrzymywanie rozkazów
+i przekazuje je dalej. AppDataUploader zawiera klasy pomagające w wczytywaniu danych. AppDataCenter jest potrzebna do wczytania stanu aplikacji.
+-HelpClasses - klasa FileOperationsExecutor zawiera różne pomocniczne metody służące działaniu na plikach (główne w trakcie dodawania i usuwania
+treningów). Klasa Informator zawiera metody służące wyświetlaniu interfejsu.
+-Orders - zawiera pomocniczny enum Order służący spisaniu rozkazów oraz klasę pomocniczną przy wykonywaniu rozkazów OrderExecutor.
+-ShowCommand - zawiera klasy potrzebne do obsługi komendy SHOW.
+-Strategies - zawiera strategie, których używa OrderExecutor z pakietu Orders. Odpowiadają one wszystkim rozkazom oprócz SHOW.
+-TrainingCoordinator - zawiera pomocniczne klasy służące do obsługi danych (korzysta z nich AppDataCenter).
+-Trainings - zawiera klasy służące zapamiętaniu danych związanych z treningami.
+
+Zawarte wzorce projektowe:
+-Fasada - w klasie o tej samej nazwie.
+-Adapter - interfejs TrainingCoordinatorPackage i i jego implementacja. W pierwszej wersji projektu obsługa HashMapy była bardziej skomplikowana,
+dlatego też zawarłem ten wzorzec projektowy. Zostawiłem go na wypadek, gdyby przy dalszym rozwoju projektu znów pojawiła się zmiana sposobu dostępu
+do niej.
+-Strategia - w pakiecie Strategies. Służy do obsługi wszystkich rozkazów z wyjątkiem "Show".
+-Proxy - interfejs TrainingInstance i jego implementacje.
+-Builder - w klasie ConcreteTrainingInstance.
+-Singleton - klasa AppDataCenter.
+-Delegacja - składają się na niego pakiet ShowCommand.
+-Blokada z podwójnym zatwierdzeniem - w implementacji Singletona.
