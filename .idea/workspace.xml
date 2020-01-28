@@ -2,38 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="740427e9-f34d-43d3-8dcc-912e0868d85d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Configs/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Loggers/MyLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ResponsibleChainForFactory/AbstractHandlerOfOrders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ResponsibleChainForFactory/HandlerOfAddOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ResponsibleChainForFactory/HandlerOfDeleteOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ResponsibleChainForFactory/HandlerOfShowOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ResponsibleChainForFactory/HandlerOfUpdateOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShowCommand/ShowExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TRAINING_APP_DESIGN_PATTERNS/HelpClasses/FileOperationsExecutorConcrete.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TRAINING_APP_DESIGN_PATTERNS/HelpClasses/FileOperationsExecutorConcrete.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TRAINING_APP_DESIGN_PATTERNS/Orders/ConcreteOrderFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TRAINING_APP_DESIGN_PATTERNS/Orders/ConcreteOrderFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TRAINING_APP_DESIGN_PATTERNS/ShowCommand/ConcreteShowCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TRAINING_APP_DESIGN_PATTERNS/ShowCommand/ConcreteShowCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TRAINING_APP_DESIGN_PATTERNS/ShowCommand/Presenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TRAINING_APP_DESIGN_PATTERNS/ShowCommand/Presenter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TRAINING_APP_DESIGN_PATTERNS/ShowCommand/ShowCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TRAINING_APP_DESIGN_PATTERNS/ShowCommand/ShowCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TRAINING_APP_DESIGN_PATTERNS/Strategies/ShowStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TRAINING_APP_DESIGN_PATTERNS/Strategies/ShowStrategy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TRAINING_APP_DESIGN_PATTERNS/app/AppDataCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TRAINING_APP_DESIGN_PATTERNS/app/AppDataCenter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TRAINING_APP_DESIGN_PATTERNS/app/AppDataUploader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TRAINING_APP_DESIGN_PATTERNS/app/AppDataUploader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TRAINING_APP_DESIGN_PATTERNS/app/ConcreteFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TRAINING_APP_DESIGN_PATTERNS/app/ConcreteFacade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TRAINING_APP_DESIGN_PATTERNS/app/Facade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TRAINING_APP_DESIGN_PATTERNS/app/Facade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TRAINING_APP_DESIGN_PATTERNS/app/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TRAINING_APP_DESIGN_PATTERNS/app/MainApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelpClasses/FileOperationsExecutorConcrete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelpClasses/FileOperationsExecutorConcrete.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Orders/ConcreteOrderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Orders/ConcreteOrderFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Orders/OrderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Orders/OrderFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShowCommand/ConcreteShowCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShowCommand/ConcreteShowCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShowCommand/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShowCommand/Presenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShowCommand/ShowCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShowCommand/ShowCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strategies/ShowStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategies/ShowStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/AppDataCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/AppDataCenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/AppDataUploader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/AppDataUploader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/ConcreteFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ConcreteFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Facade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Facade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/MainApp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -198,6 +168,14 @@
       <option name="presentableId" value="Default" />
       <updated>1577799343797</updated>
     </task>
+    <task id="LOCAL-00001" summary="My second commit of TrainingApp">
+      <created>1580204305270</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580204305270</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,5 +190,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="My second commit of TrainingApp" />
+    <option name="LAST_COMMIT_MESSAGE" value="My second commit of TrainingApp" />
   </component>
 </project>

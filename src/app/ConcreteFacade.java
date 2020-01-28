@@ -4,6 +4,7 @@ import Configs.Config;
 import HelpClasses.AppDataManager;
 import HelpClasses.InformationDisplayer;
 import Orders.*;
+import Strategies.Strategy;
 
 public class ConcreteFacade extends Facade {
     private AppDataCenter appData;
@@ -32,6 +33,9 @@ public class ConcreteFacade extends Facade {
     void processOrders() {
         String help;
         help = AppDataUploader.getNextLine();
-        OrderExecutor.execute(factory.createOrder(help, appManager, informator, config), appData);
+        Strategy strategyToExecute = factory.createOrder(help, appManager, informator, config);
+        if (strategyToExecute != null) {
+            OrderExecutor.execute(strategyToExecute, appData);
+        }
     }
 }
