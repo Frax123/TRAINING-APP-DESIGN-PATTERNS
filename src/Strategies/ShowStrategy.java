@@ -1,10 +1,14 @@
 package Strategies;
 
+import Configs.Config;
+import HelpClasses.AppDataManager;
+import HelpClasses.FileOperationsExecutorConcrete;
 import HelpClasses.InformationDisplayer;
 import HelpClasses.StringInformator;
 import ShowCommand.*;
 import ShowCommand.Presenter;
 import ShowCommand.ShowCommand;
+import TrainingCoordinatorPackage.ConcreteTrainingCoordinator;
 import app.AppDataCenter;
 
 public class ShowStrategy implements Strategy {
@@ -21,9 +25,8 @@ public class ShowStrategy implements Strategy {
 
     @Override
     public void doEverythingConnectedToGivenOrder(AppDataCenter appData, String nameOfTraining) {
-        ShowCommand show = new ConcreteShowCommand();
-        Presenter presenter = new Presenter(show);
-        presenter.doTheJob(informator);
+        Config myConfig = new Config();
+        myConfig.getShowExecutor().execute();
     }
 
     @Override

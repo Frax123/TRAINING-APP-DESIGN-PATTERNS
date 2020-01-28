@@ -39,7 +39,6 @@ public class AppDataUploader {
         try {
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             String help = br.readLine();
-            //System.out.println(help);
             return help;
         } catch (IOException exc){
             exc.printStackTrace();

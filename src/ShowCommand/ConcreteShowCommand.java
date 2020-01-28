@@ -1,6 +1,7 @@
 package ShowCommand;
 
 import HelpClasses.InformationDisplayer;
+import TrainingCoordinatorPackage.TrainingCoordinator;
 import Trainings.TrainingInstance;
 import app.AppDataCenter;
 import app.AppDataUploader;
@@ -15,8 +16,8 @@ public class ConcreteShowCommand implements ShowCommand {
     LinkedList<Integer> days;
 
     @Override
-    public void load(InformationDisplayer informationDisplayer) {
-        appData = AppDataCenter.getInstance();
+    public void load(InformationDisplayer informationDisplayer, TrainingCoordinator _allTrainings) {
+        appData = AppDataCenter.getInstance(_allTrainings);
         //loadTrainingName();
         informationDisplayer.printInstructionToShowOrder();
         command = AppDataUploader.getNextLine();
@@ -37,13 +38,6 @@ public class ConcreteShowCommand implements ShowCommand {
         }
     }
 
-    /*private void loadTrainingName(){
-        trainingName = AppDataUploader.getNextLine();
-        while (!appData.AllTrainings.trainingExists(trainingName)){
-            Informator.printTrainingDoesntExistInfo();
-            trainingName = AppDataUploader.getNextLine();
-        }
-    }*/
 
     @Override
     public void execute(InformationDisplayer informationDisplayer) {

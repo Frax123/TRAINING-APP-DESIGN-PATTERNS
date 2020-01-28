@@ -4,6 +4,7 @@ import app.AppDataUploader;
 
 import java.io.*;
 import java.util.Date;
+import java.util.logging.Logger;
 
 public class FileOperationsExecutorConcrete implements AppDataManager {
     private static final String PATH_TO_TRAININGS_DETAILS =
@@ -88,7 +89,8 @@ public class FileOperationsExecutorConcrete implements AppDataManager {
         try{
             addLineToFile("savedTrainings.txt", name);
         } catch (IOException exc){
-            exc.printStackTrace();
+            Logger logger = Logger.getLogger(this.getClass().getSimpleName());
+            logger.info(exc.getMessage());
         }
     }
 
